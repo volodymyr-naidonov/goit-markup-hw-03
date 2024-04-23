@@ -172,10 +172,13 @@ body {
 
 /* ======= BENEFITS ======= */
 
-.container-benefits {
-  display: flex;
+.page-benefits {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.container-benefits {
+  display: flex;
 }
 
 .visually-hidden {
