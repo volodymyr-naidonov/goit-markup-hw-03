@@ -38,13 +38,17 @@ body {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0 15px;
+  padding-right: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* ======= HEADER STYLES ======= */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -62,17 +66,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .menu {
   display: flex;
-  column-gap: 40px;
-  margin-left: 76px;
+  gap: 40px;
 }
 
 .menu-adress {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .span-color-navy {
