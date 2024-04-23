@@ -172,11 +172,27 @@ body {
 
 /* ======= BENEFITS ======= */
 
-.container-benefis {
+.container-benefits {
   display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.subtitle {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits {
+  width: calc((100% - 72px) / 4);
 }
 
 .subtitle-benefits {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
