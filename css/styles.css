@@ -1,6 +1,20 @@
 /* ======= COMMOND STYLES ======= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -12,13 +26,34 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ======= HEADER STYLES ======= */
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
 .page-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -29,16 +64,30 @@ body {
   color: #4d5ae5;
 }
 
+.menu {
+  display: flex;
+  column-gap: 40px;
+  margin-left: 76px;
+}
+
+.menu-adress {
+  display: flex;
+  column-gap: 40px;
+}
+
 .span-color-navy {
   color: #2e2f42;
 }
 
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -48,6 +97,8 @@ body {
 
 .page-adress {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-adress-link {
@@ -56,6 +107,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-adress-link:hover,
@@ -67,18 +120,37 @@ body {
 
 .page-hero {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 472px;
+  padding-right: 472px;
+  text-align: center;
 }
 
 .mine-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.hero-content-wrapper {
+  text-align: center;
 }
 
 .order-service-btn {
+  width: 169px;
+  height: 56px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -95,6 +167,10 @@ body {
 }
 
 /* ======= BENEFITS ======= */
+
+.container-benefis {
+  display: flex;
+}
 
 .subtitle-benefits {
   font-weight: 500;
